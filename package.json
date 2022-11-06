@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "COMP 426 a03",
   "main": ".lib/roll.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a03-BassettUNC/issues"
   },
-  "homepage": "https://github.com/comp426-2022-fall/a03-BassettUNC#readme"
+  "homepage": "https://github.com/comp426-2022-fall/a03-BassettUNC#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
 }
